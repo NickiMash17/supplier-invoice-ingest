@@ -1,0 +1,5 @@
+invoice_number,supplier_number,supplier_name,department,invoice_date,amount_excl_vat,vat,amount_incl_vat,source_file_name,status,validation_notes
+OC-22119,S009,OfficeCo,Ops,2025-10-28,2175.00,326.25,2501.25,supplier_batch.csv,inserted,
+OC-22120,S009,OfficeCo,Sales,2025-10-29,450.00,67.50,517.50,supplier_batch.csv,inserted,
+PM-77891,S011,PaperMart,Ops,2025-11-01,1020.00,153.00,1173.00,supplier_batch.csv,inserted,
+PM-77891,S011,PaperMart,Ops,2025-11-01,1020.00,153.00,1173.00,supplier_batch.csv,duplicate,"Duplicate: (supplier_number, invoice_number) already exists in supplier_invoices"
