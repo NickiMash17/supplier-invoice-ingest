@@ -31,11 +31,13 @@
         "triggerOn": "specificFolder",
         "folderToWatch": {
           "__rl": true,
-          "value": "={{$env.GDRIVE_FOLDER_ID}}",
+          "value": "1PyVAFt7jepvrhCxdMwqZ3h9f57Zwj0tQ",
           "mode": "id"
         },
         "event": "fileCreated",
-        "options": {}
+        "options": {
+          "fileType": "all"
+        }
       },
       "id": "663a1ff4-7d53-46a1-9f7a-c176c7314c3d",
       "name": "Google Drive Trigger – Folder Watch",
@@ -45,7 +47,12 @@
         -1760,
         192
       ],
-      "disabled": true,
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "IF2vNyujZ8zW1lAt",
+          "name": "Google Drive account 3"
+        }
+      },
       "notes": "BONUS: Monitors a Google Drive folder for new CSV files. Set GDRIVE_FOLDER_ID in environment variables."
     },
     {
@@ -66,7 +73,12 @@
         -1536,
         192
       ],
-      "disabled": true,
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "IF2vNyujZ8zW1lAt",
+          "name": "Google Drive account 3"
+        }
+      },
       "notes": "Downloads the CSV file binary from Google Drive for processing."
     },
     {
@@ -392,8 +404,9 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "88e78631-9eeb-471e-bb0a-6e86153292bf",
+  "versionId": "bf7c38de-ceae-4087-85ea-a3a09eacd46b",
   "meta": {
+    "templateCredsSetupCompleted": true,
     "instanceId": "eb7de7d80f041d879370eb25dc2d21b5c5c4677c6867564831b75ad558a4fad8"
   },
   "id": "teuLkjGDSNkFNuv1",
